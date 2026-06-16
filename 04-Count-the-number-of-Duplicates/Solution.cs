@@ -4,25 +4,17 @@ public class Solution
     {
         word = word.ToLower();
         Dictionary<char, int> dict = new Dictionary<char, int>();
-        for(int i = 0; i < word.Length; i++)
+        foreach(var i in word)
         {
-            if(dict.ContainsKey(word[i]))
+            if(dict.ContainsKey(i))
             {
-                dict[word[i]]++;  
+                dict[i]++;  
             }
             else
             {
-                dict[word[i]] = 1;
+                dict[i] = 1;
             }
         }
-        var count = 0;
-        foreach(var item in dict)
-        {
-            if(item.Value > 1) 
-            {
-                count++;
-            }
-        }
-        return count;
+        return dict.Count(x => x.Value > 1);
     }
 }
