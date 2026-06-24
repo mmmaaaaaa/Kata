@@ -22,4 +22,11 @@ public class CountDuplicatesTests
         var result = Solution.GetDuplicatesNumber("aA11");
         Assert.Equal(2, result);
     }
+
+    [Fact]
+    public void GivenSpaceString_ReturnTwo()
+    {
+        var result = Solution.GetDuplicatesNumber(" ");
+        Assert.Equal(0, result);
+    }
 }
