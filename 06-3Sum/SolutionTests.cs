@@ -6,7 +6,7 @@ public class ThreeSumTests
     public void GivenNormalInput_ReturnsCorrectResult()
     {
         var result = Solution.GetThreeSumTriplets([-1,0,1,2,-1,-4]);
-        Assert.Equal([[-1,0,1],[-1,-1,2]], result);
+        Assert.Equal([[-1,-1,2],[-1,0,1]], result);
     }
 
     [Fact]

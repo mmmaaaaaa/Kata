@@ -1,25 +1,36 @@
 public class Solution {
-    public static IList<IList<int>> GetThreeSumTriplets(int[] nums) {
+    public static IList<IList<int>> GetThreeSumTriplets(int[] nums) 
+    {
+        Array.Sort(nums);
         var result = new List<IList<int>>();
-        for(var i = 0; i < nums.Length - 2; i++)
+        for (int i = 0; i < nums.Length - 2; i++)
         {
-            for(var j = i + 1; j < nums.Length - 1; j++)
+            if (i > 0 && nums[i] == nums[i - 1]) continue;
+            
+            var left = i + 1;
+            var right = nums.Length - 1;
+            
+            while (left < right)
             {
-                for(var k = j + 1; k < nums.Length; k++)
+                var sum = nums[i] + nums[left] + nums[right];
+                if (sum == 0)
                 {
-                    if(nums[i] + nums[j] + nums[k] == 0)
-                    {
-                        var triplet = new List<int> { nums[i], nums[j], nums[k] };
-                        triplet.Sort();
-                        if(!result.Any(x => x.SequenceEqual(triplet)))
-                        {
-                            result.Add(triplet); //如果 result 裡沒有任何一個跟 triplet 完全一樣的，才加入
-                        }
-                    }
+                    result.Add(new List<int> { nums[i], nums[left], nums[right] });
+                    while (left < right && nums[left] == nums[left + 1]) left++;
+                    while (left < right && nums[right] == nums[right - 1]) right--;
+                    left++;
+                    right--;
+                }
+                else if (sum < 0)
+                {
+                    left++;
+                }
+                else
+                {
+                    right--;
                 }
             }
-        }
-
-        return result;
+        }   
+    return result;
     }
 }
