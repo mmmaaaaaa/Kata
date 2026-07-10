@@ -1,0 +1,13 @@
+<Solution>
+  <Project Path="01-String-average/01-String-average.csproj" />
+  <Project Path="02-Dead-Ants/02-Dead-Ants.csproj" />
+  <Project Path="03-Band-name-generator/03-Band-name-generator.csproj" />
+  <Project Path="04-Count-the-number-of-Duplicates/04-Count-the-number-of-Duplicates.csproj" />
+  <Project Path="05-Two-Sum/05-Two-Sum.csproj" />
+  <Project Path="06-3Sum/06-3Sum.csproj" />
+  <Project Path="07-Next-bigger-number-with-the-same-digits/07-Next-bigger-number-with-the-same-digits.csproj" />
+  <Project Path="13-ROT13/13-ROT13.csproj" />
+  <Project Path="20-Anagram-Detection/20-Anagram-Detection.csproj" />
+  <Project Path="21-Sort-the-odd/21-Sort-the-odd.csproj" />
+  <Project Path="26-Reverse-words/26-Reverse-words.csproj" />
+</Solution>
