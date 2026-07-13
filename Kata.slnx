@@ -6,6 +6,7 @@
   <Project Path="05-Two-Sum/05-Two-Sum.csproj" />
   <Project Path="06-3Sum/06-3Sum.csproj" />
   <Project Path="07-Next-bigger-number-with-the-same-digits/07-Next-bigger-number-with-the-same-digits.csproj" />
+  <Project Path="08-Contains-Duplicate-II/08-Contains-Duplicate-II.csproj" />
   <Project Path="13-ROT13/13-ROT13.csproj" />
   <Project Path="20-Anagram-Detection/20-Anagram-Detection.csproj" />
   <Project Path="21-Sort-the-odd/21-Sort-the-odd.csproj" />
