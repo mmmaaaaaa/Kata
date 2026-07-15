@@ -12,8 +12,9 @@ public class Solution
         {
             int digitA = i >= 0 ? (a[i] - '0') : 0;
             int digitB = j >= 0 ? (b[j] - '0') : 0;
-            result += (digitA + digitB + carry) % 10;
-            carry = (digitA + digitB + carry) / 10;
+            int sum = digitA + digitB + carry;
+            result += sum % 10;
+            carry = sum / 10;
         }
         if (carry > 0)
         {
