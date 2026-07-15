@@ -15,4 +15,11 @@ public class SumStringsTests
         var result = Solution.SumStrings("99","11");
         Assert.Equal("110", result); 
     }
+    
+    [Fact]
+    public void GivenLeadingZeros_ReturnsCorrectSum()
+    {
+        var result = Solution.SumStrings("00103", "08567");
+        Assert.Equal("8670", result);
+    }
 }

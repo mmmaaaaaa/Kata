@@ -15,11 +15,12 @@ public class Solution
             result += (digitA + digitB + carry) % 10;
             carry = (digitA + digitB + carry) / 10;
         }
-
         if (carry > 0)
         {
             result += carry;   
         }
-        return new string(result.Reverse().ToArray());
+        var reversed = new string(result.Reverse().ToArray());
+        var trimmed = reversed.TrimStart('0');
+        return trimmed == "" ? "0" : trimmed;
     }
 }
