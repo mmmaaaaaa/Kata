@@ -10,6 +10,7 @@
   <Project Path="09-Contains-Duplicate-III/09-Contains-Duplicate-III.csproj" />
   <Project Path="10-Sum-Strings-as-Numbers/10-Sum-Strings-as-Numbers.csproj" />
   <Project Path="13-ROT13/13-ROT13.csproj" />
+  <Project Path="14-Next-smaller-number-with-the-same-digits/14-Next-smaller-number-with-the-same-digits.csproj" />
   <Project Path="20-Anagram-Detection/20-Anagram-Detection.csproj" />
   <Project Path="21-Sort-the-odd/21-Sort-the-odd.csproj" />
   <Project Path="26-Reverse-words/26-Reverse-words.csproj" />
