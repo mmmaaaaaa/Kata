@@ -4,24 +4,20 @@ public class Solution
 {
     public static string WorkOnStrings(string a, string b) 
     {
-        var bChars = b.ToCharArray();
-        for (int i = 0; i < bChars.Length; i++)
-        {
-            int count = a.Count(c => char.ToLower(c) == char.ToLower(bChars[i]));
-            if (count % 2 != 0)
-            {
-                bChars[i] = char.IsUpper(bChars[i]) ? char.ToLower(bChars[i]) : char.ToUpper(bChars[i]);
-            }
-        }
-        var aChars = a.ToCharArray();
-        for (int i = 0; i < aChars.Length; i++)
-        {
-            int count = b.Count(c => char.ToLower(c) == char.ToLower(aChars[i]));
-            if (count % 2 != 0)
-            {
-                aChars[i] = char.IsUpper(aChars[i]) ? char.ToLower(aChars[i]) : char.ToUpper(aChars[i]);
-            }
-        }
+        var aChars = SwapCasing(a.ToCharArray(), b);
+        var bChars = SwapCasing(b.ToCharArray(), a);
         return new string(aChars) + new string(bChars);
+    }
+    private static char[] SwapCasing(char[] chars, string reference)
+    {
+        for (int i = 0; i < chars.Length; i++)
+        {
+            int count = reference.Count(c => char.ToLower(c) == char.ToLower(chars[i]));
+            if (count % 2 != 0)
+            {
+                chars[i] = char.IsUpper(chars[i]) ? char.ToLower(chars[i]) : char.ToUpper(chars[i]);
+            }
+        }
+        return chars;
     }
 }
