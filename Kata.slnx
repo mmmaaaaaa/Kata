@@ -12,6 +12,7 @@
   <Project Path="13-ROT13/13-ROT13.csproj" />
   <Project Path="14-Next-smaller-number-with-the-same-digits/14-Next-smaller-number-with-the-same-digits.csproj" />
   <Project Path="15-Play-with-two-Strings/15-Play-with-two-Strings.csproj" />
+  <Project Path="16-Simple-Fun-#57-Runners-Meetings/16-Simple-Fun-#57-Runners-Meetings.csproj" />
   <Project Path="20-Anagram-Detection/20-Anagram-Detection.csproj" />
   <Project Path="21-Sort-the-odd/21-Sort-the-odd.csproj" />
   <Project Path="26-Reverse-words/26-Reverse-words.csproj" />
