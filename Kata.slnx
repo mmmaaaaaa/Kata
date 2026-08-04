@@ -16,5 +16,6 @@
   <Project Path="18-Compute-the-Largest-Sum-of-all-Contiguous-Subsequences/18-Compute-the-Largest-Sum-of-all-Contiguous-Subsequences.csproj" />
   <Project Path="20-Anagram-Detection/20-Anagram-Detection.csproj" />
   <Project Path="21-Sort-the-odd/21-Sort-the-odd.csproj" />
+  <Project Path="22-Counting-Change-Combinations/22-Counting-Change-Combinations.csproj" />
   <Project Path="26-Reverse-words/26-Reverse-words.csproj" />
 </Solution>
