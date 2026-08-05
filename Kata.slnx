@@ -24,4 +24,5 @@
   <Project Path="33-Find-the-odd-int/33-Find-the-odd-int.csproj" />
   <Project Path="35-Vowel-Count/35-Vowel-Count.csproj" />
   <Project Path="36-Find-The-Parity-Outlier/36-Find-The-Parity-Outlier.csproj" />
+  <Project Path="37-Sum-of-Digits-Digital-Root/37-Sum-of-Digits-Digital-Root.csproj" />
 </Solution>
