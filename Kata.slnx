@@ -19,6 +19,7 @@
   <Project Path="22-Counting-Change-Combinations/22-Counting-Change-Combinations.csproj" />
   <Project Path="25-Multiples-of-3-or-5/25-Multiples-of-3-or-5.csproj" />
   <Project Path="26-Reverse-words/26-Reverse-words.csproj" />
+  <Project Path="27-Highest-Rank-Number-in-an-Array/27-Highest-Rank-Number-in-an-Array.csproj" />
   <Project Path="28-Get-the-Middle-Character/28-Get-the-Middle-Character.csproj" />
   <Project Path="32-Exes-and-Ohs/32-Exes-and-Ohs.csproj" />
   <Project Path="33-Find-the-odd-int/33-Find-the-odd-int.csproj" />
