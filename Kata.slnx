@@ -27,5 +27,6 @@
   <Project Path="35-Vowel-Count/35-Vowel-Count.csproj" />
   <Project Path="36-Find-The-Parity-Outlier/36-Find-The-Parity-Outlier.csproj" />
   <Project Path="37-Sum-of-Digits-Digital-Root/37-Sum-of-Digits-Digital-Root.csproj" />
+  <Project Path="38-Only-one/38-Only-one.csproj" />
   <Project Path="39-Product-of-Array-Items/39-Product-of-Array-Items.csproj" />
 </Solution>
